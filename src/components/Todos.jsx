@@ -10,6 +10,8 @@ function Todos(){
         setNewItemText('')
 
     };
+    
+
     const updateNewItemText = async (event) => {
         setNewItemText(event.currentTarget.value)
 

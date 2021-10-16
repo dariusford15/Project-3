@@ -85,6 +85,11 @@ nav{background-color: black;}
   padding: 5px 15px;
   margin-right: 8px;
 }
+.selected{
+  background-color: rgb(66, 108, 224);;
+  color: white;
+  text-decoration: none;
+}
 /*.App {
   text-align: center;
 }

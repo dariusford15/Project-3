@@ -4,8 +4,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
 } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import Todos from "./components/Todos.jsx";
 import Contact from "./components/Contact.jsx";
 import About from "./components/About.jsx";
@@ -19,10 +20,10 @@ function App() {
         <nav>
           <ul className="nav-ul">
             <li className="navlink active">
-              <Link to="/">Todos</Link>
+               <NavLink to="/" activeClassName='selected'>Todos</NavLink>
             </li>
             <li className="navlink">
-              <Link to="/about">About</Link>
+              <NavLink to="/about" activeClassName="selected">About</NavLink>
             </li>
             <li className="navlink">
               <Link to="/contact">Contact</Link>

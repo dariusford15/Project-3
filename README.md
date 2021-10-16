@@ -1,3 +1,13 @@
+# Development Tasks
+- Add react router and write code to be able to click on about, todos and contact on the navbar and switch or update the URLs
+- Add the ability for the user to be able to add a task item.
+- Add the ability for the user to mark an item as completed.
+- Add the ability for the user to delete an item from the list
+- Add the ability for the user to click on 'All', 'Active', and 'Completed' buttons and show the appropriate tasks
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
