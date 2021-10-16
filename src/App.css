@@ -1,4 +1,91 @@
-.App {
+nav{background-color: black;}
+
+.nav-ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navlink{
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+
+}
+.active{
+  background-color:rgb(66, 108, 224);
+}
+
+.todos-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+.todos-input{
+  margin-right: 20px;
+  padding: 5px 10px;
+  width: 35%;
+  border-color: rgb(194, 194, 194);
+  border-radius: 5px;
+}
+.add-btn{
+  background-color: white;
+  border-color: rgb(66, 108, 224);
+  width: 20%;
+  border-radius: 5px;
+  color:rgb(66, 108, 224);
+}
+.todo-list-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.todo-list{
+  background-color: rgb(235, 235, 235);
+  width: 60%;
+}
+.task-li{
+  border-bottom: 1px solid rgb(184, 181, 181);
+  padding: 5px 0;
+  
+}
+.checkbox{
+  margin-right: 10px;
+
+}
+.todo-ul{
+  list-style-type: none;
+}
+
+.show-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.all-btn{
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-right:8px;
+}
+.active-btn{
+  background-color: rgb(194, 194, 194);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 8px;
+
+}
+.complete-btn{
+  background-color: rgb(194, 194, 194);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-right: 8px;
+}
+/*.App {
   text-align: center;
 }
 
@@ -36,3 +123,4 @@
     transform: rotate(360deg);
   }
 }
+*/
