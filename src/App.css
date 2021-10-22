@@ -1,4 +1,7 @@
-nav{background-color: black;}
+
+nav{
+  background-color: black;
+}
 
 .nav-ul{
   list-style-type: none;
@@ -14,7 +17,7 @@ nav{background-color: black;}
 
 }
 .active{
-  background-color:rgb(66, 108, 224);
+  background-color:rgb(66, 108, 224)!;
 }
 
 .todos-container{
@@ -69,9 +72,26 @@ nav{background-color: black;}
   padding: 5px 15px;
   border-radius: 5px;
   margin-right:8px;
+  background-color: rgb(194, 194, 194);
+}
+.all-btn-active{
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-right:8px;
+  background-color: rgb(66, 108, 224);
+
 }
 .active-btn{
   background-color: rgb(194, 194, 194);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 8px;
+
+}
+.active-btn-active{
+  background-color:rgb(66, 108, 224);
   color: white;
   border-radius: 5px;
   padding: 5px 10px;
@@ -85,11 +105,45 @@ nav{background-color: black;}
   padding: 5px 15px;
   margin-right: 8px;
 }
+.complete-btn-active{
+  background-color:rgb(66, 108, 224);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-right: 8px;
+
+}
 .selected{
+  padding: 10px 10px;
   background-color: rgb(66, 108, 224);;
   color: white;
   text-decoration: none;
+  margin-left: 0;
 }
+.form-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+input[type=email],textarea{ 
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border-color: rgb(194, 194, 194);
+}
+input[type=submit]{
+  padding: 8px 12px;
+  border: none;
+  border-radius: 2px;
+  background-color:rgb(194, 194, 194);
+}
+label{
+  font-weight: 500;
+}
+
+
 /*.App {
   text-align: center;
 }

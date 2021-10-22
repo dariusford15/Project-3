@@ -19,14 +19,14 @@ function App() {
       <div>
         <nav>
           <ul className="nav-ul">
-            <li className="navlink active">
-               <NavLink to="/" activeClassName='selected'>Todos</NavLink>
+            <li className="navlink">
+               <NavLink to="/" exact activeClassName='selected'>Todos</NavLink>
             </li>
             <li className="navlink">
               <NavLink to="/about" activeClassName="selected">About</NavLink>
             </li>
             <li className="navlink">
-              <Link to="/contact">Contact</Link>
+              <NavLink to="/contact" activeClassName="selected">Contact</NavLink>
             </li>
           </ul>
         </nav>
