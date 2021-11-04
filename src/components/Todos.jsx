@@ -50,12 +50,13 @@ function Todos(){
                 <button className="add-btn" onClick={addItem}>Add</button>
             </div>
 
-            <p>{JSON.stringify(items)}</p>
-            <p>{currentTab}</p>
+            {/*<p>{JSON.stringify(items)}</p>
+            <p>{currentTab}</p>*/}
 
             <div className="todo-list-container">
                 <div className="todo-list">
                     <ul className="todo-ul">
+                        {/*when item exist and when there is more than one item then loop over each items grab one item at a time and for each item return this*/}
                         {items && items.length > 0 && items.map((item, idx) => {
                             // is the current item in the loop completed AND is the current tab == completed, if yes show the item
                             if(item.completed && currentTab == 'Completed'){
@@ -79,18 +80,7 @@ function Todos(){
                         </li>
                             }
                         
-                        })} {/*when item exist and when there is more than one item then loop over each items grab one item at a time and for each item return this*/}
-                        
-                        {/*<li className="task-li">
-                        <input type="checkbox" className="checkbox"/>
-                            <span>Work on Project</span>
-                            <i class="fa-regular fa-trash-can" style={{float:"right", color:"red", marginRight:"10px"}}></i>
-                        </li>
-                        <li className="task-li">
-                        <input type="checkbox" className="checkbox"/>
-                            <span>Study programming</span>
-                            <i class="fa-regular fa-trash-can" style={{float:"right", color: "red", marginRight:"10px"}}></i>
-                    </li>*/}
+                        })} 
                     
                     </ul>
                     
